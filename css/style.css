@@ -1,4 +1,3 @@
-/* Load custom font */
 @font-face {
   font-family: 'CryptOfNextWeek';
   src: url('../fonts/crypt-of-next-week.ttf') format('truetype');
@@ -7,10 +6,10 @@
   font-display: swap;
 }
 
-/* Reset and base */
 * {
   box-sizing: border-box;
 }
+
 body {
   margin: 0;
   background: #121417;
@@ -33,6 +32,7 @@ a {
   text-decoration: none;
   transition: color 0.3s ease;
 }
+
 a:hover {
   color: #93c5fd;
 }
@@ -46,12 +46,14 @@ header {
   flex-shrink: 0;
   border-bottom: 1px solid #374151;
 }
+
 .logo {
   max-width: 250px;
   height: auto;
   margin-bottom: -20px;
   filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.8));
 }
+
 .author {
   font-style: italic;
   font-size: 1.1rem;
@@ -60,9 +62,11 @@ header {
   color: #9ca3af;
   user-select: none;
 }
+
 nav {
   margin-top: 10px;
 }
+
 nav a {
   margin: 0 18px;
   font-weight: 600;
@@ -76,6 +80,7 @@ main {
   padding: 0 15px;
   flex-grow: 1;
 }
+
 section {
   margin-bottom: 50px;
   background: #1e293b;
@@ -83,6 +88,7 @@ section {
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
 }
+
 h2 {
   font-weight: 700;
   color: #60a5fa;
@@ -115,6 +121,7 @@ p {
   text-align: center;
   text-decoration: none;
 }
+
 .button:hover {
   background-color: #3b82f6;
   box-shadow: 0 8px 20px rgba(59, 130, 246, 1);
@@ -184,6 +191,7 @@ footer {
   flex-wrap: wrap;
   margin-top: 15px;
 }
+
 .media-thumbnails img {
   width: 100px;
   height: 70px;
@@ -197,6 +205,7 @@ footer {
   image-rendering: crisp-edges;
   -ms-interpolation-mode: nearest-neighbor;
 }
+
 .media-thumbnails img:hover {
   border-color: yellow;
 }
@@ -217,9 +226,11 @@ footer {
   padding: 20px;
   box-sizing: border-box;
 }
+
 #popup-overlay.active {
   display: flex;
 }
+
 #popup-overlay img {
   max-width: 90vw;
   max-height: 70vh;
@@ -232,6 +243,7 @@ footer {
   user-select: none;
   margin-bottom: 10px;
 }
+
 #popup-caption {
   color: #ffd800cc;
   font-weight: 600;
@@ -240,6 +252,7 @@ footer {
   max-width: 90vw;
   user-select: none;
 }
+
 #popup-overlay .close-btn {
   position: absolute;
   top: 20px;
