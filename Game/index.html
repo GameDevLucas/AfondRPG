@@ -29,7 +29,6 @@
   <script>
     const canvas = document.getElementById("unity-canvas");
 
-    // Mobile adjustments
     if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
       canvas.style.position = "fixed";
       canvas.style.width = "100%";
@@ -37,10 +36,9 @@
     }
 
     createUnityInstance(canvas, {
-      arguments: [],
-      dataUrl: "Build/Website.data",
-      frameworkUrl: "Build/Website.framework.js",
-      codeUrl: "Build/Website.wasm",
+      dataUrl: "Build/Website.data.unityweb",
+      frameworkUrl: "Build/Website.framework.js.unityweb",
+      codeUrl: "Build/Website.wasm.unityweb",
       streamingAssetsUrl: "StreamingAssets",
       companyName: "Lusans2001",
       productName: "Afond",
